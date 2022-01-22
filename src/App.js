@@ -104,11 +104,11 @@ const agregar=()=>{
           
         }else{
           
-          if(nombre==""||
-            apellido==""||
-            cumpleanos==""||
-            email==""||
-            contrasena==""){
+          if(nombre===""||
+            apellido===""||
+            cumpleanos===""||
+            email===""||
+            contrasena===""){
               swal(
                 {
                   title: "Formulario incompleto",
